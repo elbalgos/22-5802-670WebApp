@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Exercises</title>
+
+    <style>
+        body {
+            background-color: #FDB927;
+        }
+    
+        nav {
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: black;
+        }
+    
+    </style>
 </head>
-<style>
-    body {
-        background-color: #FDB927;
-    }
 
-    nav {
-        background-color: white;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: black;
-    }
-
-</style>
 <body>
 
     <header id="navbar">
@@ -30,21 +32,19 @@
         </nav>
     </header>
 
-    <section>
-        <img src="https://www.essentiallysports.com/wp-content/uploads/kobe-2001-1.jpg" alt="Kobe Bryant Picture" width="1000px">
-    </section>
+    <div>
+        <img src="/kobepic.jpg" alt="Kobe Bryant Picture" width="800">
+    </div>
 
-    <section>
-
-    <form action="">
-
+    <div>
+    <form>
         <label for="name">Name: </label>
         <input type="text" name="name" id="name"><br>
 
         <label for="password">Password: </label>
         <input type="password" name="password" id="password"><br>
 
-        <label for="gender">Gender: </label><br>
+        <label>Gender: </label><br>
         <input type="radio" name="gender" id="male" value="male">
         <label for="male">Male</label>
         <input type="radio" name="gender" id="female" value="female">
@@ -55,26 +55,31 @@
 
         <input type="submit" value="Submit"><br><br>
     </form>
-    </section>
+</div>
+    <hr>
 
     <section>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>City</th>
-            </tr>
-            <tr>
-                <td>John</td>
-                <td>25</td>
-                <td>New York</td>
-            </tr>
-            <tr>
-                <td>Jane</td>
-                <td>30</td>
-                <td>Los Angeles</td>
-            </tr>
-        </table>
+        <h1>User Table</h1>
+        <br>
+            <table style="box-shadow: 1px 1px 5px;">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </table>
+
     </section>
+    <hr>
 </body>
 </html>
