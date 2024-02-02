@@ -1,5 +1,5 @@
 header {
-    background-color: #FDB927;
+    background-color: #552583;
     color: white;
     text-align: center;
     padding: 5px;
@@ -11,18 +11,16 @@ body {
     margin: 0;
     padding: auto;
     box-sizing: border-box;
-    background-color: #552583;
-    color: white;
+    color: black;
 }
 
 nav a {
     text-decoration: double;
-    color: white;
+    color: black;
 }
 
 nav {
-    background-color: #FDB927;
-    color: white;
+    color: black;
     padding: 5px;
     margin: 5px;
 }
@@ -40,12 +38,19 @@ section {
 }
 
 button {
-    background-color: white;
-    color: black;
+    background-color: #552583;
+    color: white;
     padding: 5px;
     border: 0;
 }
 
 button:hover {
     background-color: #FDB927;
+}
+
+footer {
+    background-color: #552583;
+    color: white;
+    text-align: center;
+    padding: 3px;
 }
