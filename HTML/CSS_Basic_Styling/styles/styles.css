@@ -1,0 +1,36 @@
+header {
+    background-color: #552583;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+}
+
+nav ul {
+    list-style: square;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: #FDB927;
+}
+
+li {
+    display: inline;
+}
+
+footer {
+    background-color: #552583;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
