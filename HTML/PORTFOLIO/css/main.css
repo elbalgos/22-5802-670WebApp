@@ -1096,10 +1096,10 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 200px;
 	min-height: 66px;
-	position: absolute;
-	left: 90px;
+	position: fixed;
+	left: 0;
 	top: 0;
 }
 header .logo {
@@ -1117,10 +1117,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 92px;
+	width: 100px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	background: url("/HTML/PORTFOLIO/images/Logo/logo2.png") no-repeat center;
+	background-size: 100px 15px;
 }
 
 /**
@@ -1129,8 +1129,8 @@ header .logo a {
  */
 .menu-toggle {
 	float: left;
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	margin-left: 20px;
 	margin-top: 13px;
 	display: block;
@@ -1294,7 +1294,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(/HTML/PORTFOLIO/images/Background/bgcpic2.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2095,7 +2095,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131 url(/HTML/PORTFOLIO/images/Background/backgroundpicfinal.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
